@@ -16,3 +16,5 @@ or
  	(sendyournotes)kickdrum-amar:sendyournotes amar$ git remote rm heroku
 	(sendyournotes)kickdrum-amar:sendyournotes amar$ heroku git:remote -a newname
 
+What else should I try?
+
