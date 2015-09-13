@@ -18,3 +18,5 @@ or
 
 http://stackoverflow.com/questions/10909221/why-is-github-asking-for-username-password-when-following-the-instructions-on-sc
 
+Anytime I want a refresher on git https://try.github.io/levels/1/challenges/21
+
