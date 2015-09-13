@@ -1,0 +1,1 @@
+web: gunicorn sendyournotes:app --log-file=-
