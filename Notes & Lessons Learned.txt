@@ -1,0 +1,18 @@
+Notes & Lessons Learned:
+1. If switching heroku app need to remove the old app's git association. For instance
+I kept seeing this 
+	(sendyournotes)kickdrum-amar:sendyournotes amar$  heroku config:add BUILDPACK_URL=git://github.com/heroku/heroku-buildpack-python.git
+	Setting config vars and restarting boiling-headland-1225... failed
+ 	!    App not found
+
+The answer turned out to be that, I had to do this.
+	(sendyournotes)kickdrum-amar:sendyournotes amar$ git remote rm heroku
+	(sendyournotes)kickdrum-amar:sendyournotes amar$ git remote add heroku git@heroku.com:enigmatic-brushlands-4206.git
+	(sendyournotes)kickdrum-amar:sendyournotes amar$ heroku config:add BUILDPACK_URL=git://github.com/heroku/heroku-buildpack-python.git
+	Setting config vars and restarting enigmatic-brushlands-4206... done, v3
+	BUILDPACK_URL: git://github.com/heroku/heroku-buildpack-python.git
+
+or
+ 	(sendyournotes)kickdrum-amar:sendyournotes amar$ git remote rm heroku
+	(sendyournotes)kickdrum-amar:sendyournotes amar$ heroku git:remote -a newname
+
