@@ -16,5 +16,5 @@ or
  	(sendyournotes)kickdrum-amar:sendyournotes amar$ git remote rm heroku
 	(sendyournotes)kickdrum-amar:sendyournotes amar$ heroku git:remote -a newname
 
-What else should I try?
+http://stackoverflow.com/questions/10909221/why-is-github-asking-for-username-password-when-following-the-instructions-on-sc
 
