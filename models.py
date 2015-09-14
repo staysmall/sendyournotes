@@ -1,7 +1,7 @@
 from sendyournotes import db
 
 
-class Result(db.Model):
+class Entries(db.Model):
     __tablename__ = 'entries'
 
     id = db.Column(db.Integer, primary_key=True)
