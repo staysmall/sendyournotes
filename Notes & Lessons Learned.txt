@@ -23,4 +23,8 @@ Anytime I want a refresher on git https://try.github.io/levels/1/challenges/21
 	As an example, you usually run git push origin master to push your local changes to your online repository.
 
 
+Postgresql
+1. http://www.tutorialspoint.com/postgresql/postgresql_create_database.htm
+
+
 
