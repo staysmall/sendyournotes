@@ -17,6 +17,7 @@ from contextlib import closing
 
 # create our little application :)
 app = Flask(__name__)
+app.config.from_object(os.environ['APP_SETTINGS'])
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
